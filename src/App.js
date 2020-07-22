@@ -23,3 +23,8 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+// nice tool to see the code online
+// https://babeljs.io/
