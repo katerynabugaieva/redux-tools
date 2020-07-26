@@ -16,7 +16,7 @@ class App extends Component {
         &nbsp;
         {React.createElement("div", { className: "app" }, var1.key1)}
        
-        <Component1 />
+        <Component1 name="Component 1"/>
       </div>
     );
   }
