@@ -1,8 +1,8 @@
 import React from "react"
 
-const Component1 = props => (
+const Component1 = (name) => (
     <div>
-        I am Component1
+        I am {name}
     </div>
 )
 export default Component1;
