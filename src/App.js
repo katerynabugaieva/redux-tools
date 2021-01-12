@@ -11,10 +11,12 @@ class App extends Component {
     return (
       <div className="App">
         <div style={styles.styles}>
-          {this.name} &nbsp;
+          {this.name}
           <button>Button</button>
         </div>
-        {isHere}
+
+        {React.createElement('button', {className:"App"}, "React")}
+        &nbsp; 
       </div>
     );
   }
